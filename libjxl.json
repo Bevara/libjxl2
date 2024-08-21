@@ -10,5 +10,9 @@
     "filter_source":{
         "jxldec" : "dec_jxl.c",
         "rfjxl" : "reframe_jxl.c"
-    }
+    },
+    "extension":{
+      "jxl" : "img"
+    },
+    "licence_required":false
 }
