@@ -60,7 +60,7 @@
      
      ctx->ipid = pid;
      if (!ctx->ofmt) {
-         ctx->ofmt = GF_PIXEL_RGBA;
+         ctx->ofmt = GF_PIXEL_RGB;
      }
      ctx->dst_pck = NULL;
      return GF_OK;
