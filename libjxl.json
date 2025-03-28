@@ -1,15 +1,14 @@
 {
-    "name": "libjxl",
-    "description": "JXL decoder",
-    "filters":["jxldec","rfjxl"],
-    "help": "This filter decodes JXL images using libjxl.",
+    "name": "libjxl_optimized",
+    "description": "Optimized version of JXL decoder",
+    "filters":["jxldec"],
+    "help": "This filter use a single filter to decode JXL images using libjxl.",
     "support": [
         "image"
     ],
     "sources":"https://bevara.ddns.net/sources/libjxl.accessor",
     "filter_source":{
-        "jxldec" : "dec_jxl.c",
-        "rfjxl" : "reframe_jxl.c"
+        "jxldec" : "dec_jxl.c"
     },
     "extension":{
       "jxl" : "img"

@@ -6,7 +6,6 @@ include(filters.cmake)
 add_definitions(-fpic)
 
 SET(LIBJXL_SRC
-        ${CMAKE_CURRENT_SOURCE_DIR}/reframe_jxl.c
         ${CMAKE_CURRENT_SOURCE_DIR}/dec_jxl.c
 )
 
